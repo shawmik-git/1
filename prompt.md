@@ -1,0 +1,1 @@
+I am building a DevConf 2026 conference website using only HTML and CSS. Generate a modern Hackathon section. Include a centered heading, a short description, four information cards (Prize Pool, Team Size, Duration, Registration Deadline), and a centered "Join the Hackathon" button. Use semantic HTML and clean CSS without JavaScript.
