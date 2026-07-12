@@ -3,7 +3,7 @@
   padding: 0;
   font-family: "Inter", sans-serif;
   box-sizing: border-box;
-  max-width:1200px;
+  max-width: 1200px;
   margin: 0 auto;
 }
 
@@ -110,10 +110,9 @@ nav img {
   width: 140px;
 }
 
-
-.hero-content .common-btn{
-    display: inline-block;
-    margin-top: 300px;
+.hero-content .common-btn {
+  display: inline-block;
+  margin-top: 300px;
 }
 
 /* speakers styles */
@@ -128,7 +127,7 @@ nav img {
   border-radius: 16px;
   overflow: hidden;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
-  padding: bottom 24px;
+  padding-bottom: 24px;
 }
 
 .speaker-card h3 {
@@ -213,16 +212,9 @@ nav img {
   border: 2px solid #365fd1;
 }
 
-.pricing-card .common-btn:hover{
-    background-color: #365fd1;
-    color: white;
-}
-
-
-}
-.section-title {
-  text-align: center;
-  margin-bottom: 50px;
+.pricing-card .common-btn:hover {
+  background-color: #365fd1;
+  color: white;
 }
 
 .pricing-card h3 {
@@ -263,15 +255,15 @@ nav img {
   color: #081e70;
 }
 
-.pro-card .common-btn{
-    background-color: #365fd1;
-    color: white;
-    border: 2px solid white;
+.pro-card .common-btn {
+  background-color: #365fd1;
+  color: white;
+  border: 2px solid white;
 }
 
-.pro-card .common-btn:hover{
-    background-color: white;
-    color: #365fd1;
+.pro-card .common-btn:hover {
+  background-color: white;
+  color: #365fd1;
 }
 
 /* ai section styles */ /* ===========================
