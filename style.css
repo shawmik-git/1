@@ -154,7 +154,6 @@ nav img {
   display: grid;
   margin-top: 20px;
   margin-bottom: 20px;
-
   grid-template-columns: repeat(2, 1fr);
   gap: 20px;
 }
@@ -177,6 +176,22 @@ nav img {
   font-size: 48px;
   font-weight: 700;
 }
+
+.section-title {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.section-title h1{
+    font-size:48px;
+    margin-bottom:12px;
+}
+
+.section-title p{
+    color:#666;
+    font-size:18px;
+}
+
 
 /* pricing styles */
 
@@ -321,32 +336,54 @@ nav img {
 
 .footer {
   background: #0f1b2d;
-  padding: 30px 0;
+  padding: 40px 0;
   margin-top: 80px;
 }
-
-.footer-content {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+.footer-top{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding-bottom:20px;
 }
+
+.footer-logo{
+    width:160px;
+}
+
 
 .footer p {
   color: #9ca3af;
   font-size: 14px;
 }
 
-.footer-links {
-  display: flex;
-  gap: 24px;
-}
-
-.footer-links a {
-  color: #9ca3af;
-  text-decoration: none;
-  font-size: 14px;
-}
 
 .footer-links a:hover {
   color: #fff;
+}
+
+.footer hr{
+    border:none;
+    border-top:1px solid #374151;
+    margin:30px 0;
+}
+
+.social-links{
+    display:flex;
+    gap:20px;
+}
+
+.social-links a{
+    color:#ffffff;
+    font-size:22px;
+    text-decoration:none;
+}
+
+.social-links a:hover{
+    color:#365fd1;
+}
+
+.copyright{
+    color:#9ca3af;
+    text-align:center;
+    padding-top:20px;
 }
